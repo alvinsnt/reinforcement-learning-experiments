@@ -4,8 +4,6 @@ A collection of reinforcement learning experiments ranging from tabular Q-learni
 
 ---
 
----
-
 ## Demonstrations
 
 ### Taxi-v4 Q-Learning
