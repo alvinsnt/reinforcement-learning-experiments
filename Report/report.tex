@@ -16,6 +16,7 @@
 \usepackage{enumitem}
 \usepackage{amsfonts}
 \usepackage[skip=4pt]{caption}
+\usepackage{hyperref}
 
 \titlespacing*{\section}{0pt}{8pt}{4pt}
 \titlespacing*{\subsection}{0pt}{8pt}{4pt}
@@ -25,7 +26,11 @@
 \setlength{\intextsep}{2pt}
 
 \title{\vspace{-1.0cm}Reinforcement Learning Homework 3}
-\author{Santoso Alvin Christopher 20265011}
+\author{Santoso Alvin Christopher 20265011 \\
+\href{https://github.com/alvinsnt/reinforcement-learning-experiments}{GitHub}
+}
+
+
 \date{}
 
 \begin{document}
@@ -61,11 +66,11 @@ This report investigates reinforcement learning through two contrasting environm
 
     \item Transition dynamics
     
-    Taxi has deterministic transition dynamics where movement actions deterministically change position unless blocked by walls, pickup works only if taxi is at passenger location, and dropoff only works if taxi is at destination with passenger.
+    Taxi has deterministic transition dynamics where movement actions deterministically change position unless blocked by walls, pickup works only if taxi is at passenger location, and dropoff only works if taxi is at destination with passenger \cite{towers2024gymnasium}.
 
     \item Terminal condition
     
-    The episode ends if the taxi successfully drops off the passenger or when the episode length is 200.
+    The episode ends if the taxi successfully drops off the passenger or when the episode length is 200 \cite{towers2024gymnasium}.
 
 \end{itemize}
 
@@ -165,7 +170,7 @@ From figure \ref{alphavsepsilon} and especially in figure \ref{epsilonvsgamma}, 
 
     \item Action Space
     
-    The action space of Breakout consists of 4 actions. NOOP (0), FIRE (1), RIGHT (2), LEFT (3).
+    The action space of Breakout consists of 4 actions. NOOP (0), FIRE (1), RIGHT (2), LEFT (3) \cite{bellemare13arcade}.
 
     \item Reward Structure
 

@@ -24,7 +24,7 @@ The agent learns to efficiently pick up and drop off passengers using tabular Q-
   <img src="Breakout/Results2m/breakout_dqn2m_seed202.gif" alt="Breakout DQN Demo" width="600">
 </p>
 
-A Deep Q-Network (DQN) agent trained to play Atari Breakout ALE/Breakout-v5.
+A Deep Q-Network (DQN) agent trained for 2 million steps to play Atari Breakout ALE/Breakout-v5.
 
 ---
 
